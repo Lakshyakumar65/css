@@ -1,0 +1,50 @@
+nav a{
+    text-decoration: none;
+    color: black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;  
+    justify-content:space-around;
+}
+header{
+    background-color: #03e1fa;
+    height: 25px;
+    padding-top:6px ;
+}
+img{
+    height: 200px;
+    border-radius: 50%;
+}
+figcaption{
+    display: block;
+    margin-top: 215px;
+    margin-left: -74px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#winne{
+   display: flex;
+   height: 268px;
+   justify-content: center;
+   /* border: 1px solid black; */
+   align-items: center;
+   /* border-radius: 50%; */
+}
+#box{
+    border: 1px solid black;
+    height:191px;
+    margin-top: 30px;
+    background-color: gray;
+}
+@media screen and (max-width:400px){
+    #box{
+        border: 1px solid black;
+        height:191px;
+        margin-top: 30px;
+        background-color: rgb(69, 16, 230);
+        width: 100px;
+    }
+}
